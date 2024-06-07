@@ -1,0 +1,13 @@
+.Descripcipon {
+
+}
+
+.Galeria {
+    display: grid;
+    grid-row: repeat(4, 1fr);
+}
+
+.Galeria__Img {
+    width: 100px;
+    height: 100px;
+}
