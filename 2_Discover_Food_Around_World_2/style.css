@@ -1,0 +1,72 @@
+:root {
+    --Title_Font: "Avenir", Arial, Helvetica, sans-serif;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.Descripcion {
+    position: relative;
+    left: 150px;
+    text-align: center;
+    white-space: pre-wrap;
+    font-family: var(--Title_Font);
+    align-content: center;
+}
+
+.Descripcion__Titulo {
+    font-weight: bolder;
+    font-size: 64px;
+}
+
+.Descripcion__Descripcion {
+    text-align: left;
+    font-weight: 200;
+    font-size: 26px;
+}
+
+.Button {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 50px;
+    padding-right: 50px;
+    border-radius: 20px / 50%;
+    background-color: #252525;
+    color: #FFFFFF;
+    border: 0px;
+}
+
+.Arriba {
+    display: flex;
+    box-sizing: border-box;
+    justify-content: space-around;
+    width: 100vw;
+    gap: 20px;
+}
+
+.Abajo {
+    display: flex;
+    justify-content: space-evenly;
+    box-sizing: border-box;
+    height: 50vh;
+    width: 100vw;
+}
+
+.Galeria {
+}
+.Galeria--Arriba {
+    position: relative;
+    right: 50px;
+    display: flex;
+    column-gap: 150px;
+}
+.Galeria__Img {
+    width: auto;
+    height: 350px;
+    border-radius: 20px / 15%;
+}
+
+.Galeria--Abajo {
+}

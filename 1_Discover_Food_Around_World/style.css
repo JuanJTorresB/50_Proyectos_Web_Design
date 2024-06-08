@@ -8,6 +8,8 @@
 }
 
 .Descripcion {
+    position: relative;
+    right: 25px;
     text-align: center;
     white-space: pre-wrap;
     font-family: var(--Title_Font);
@@ -41,7 +43,6 @@
 } 
 
 .Galeria {
-    box-sizing: border-box;
     align-self: center;
     justify-self: center;
     width: 80vw;
