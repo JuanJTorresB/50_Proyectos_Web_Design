@@ -1,0 +1,101 @@
+:root {
+    --Title_Font: "Avenir", Arial, Helvetica, sans-serif;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+}
+
+.Descripcion {
+    height: 100%;
+    flex-direction: column;
+    box-sizing: border-box;
+    display: flex;
+    text-align: start;
+    justify-content: center;
+    white-space: pre-wrap;
+    font-family: var(--Title_Font);
+    gap: 2vw;
+}
+
+.Descripcion__Titulo {
+    font-weight: bolder;
+    font-size: 64px;
+}
+
+.Descripcion_Descripcion {
+    font-weight: 200;
+    font-size: 26px;
+}
+
+.Descripcion_Lista {
+    text-align: justify;
+    list-style-type: none;
+    font-family: var(--Title_Font);
+    color: #25252590;
+}
+
+.Descripcion_Lista::before {
+    text-align: start;
+    position: relative;
+    left: 25px;
+    color: #25252555;
+    display: block;
+    font-size: 1.3em;
+}
+
+.Lista--1::before {
+    content: "01";
+}
+
+.Lista--2::before {
+    content: "02";
+}
+
+
+.Button {
+    width: 20%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 50px;
+    padding-right: 50px;
+    border-radius: 20px / 50%;
+    background-color: #252525;
+    color: #FFFFFF;
+    border: 0px;
+}
+
+
+
+.Derecha {
+    order: 1;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    justify-content: start;
+    align-items: center;
+    width: 50vw;
+    height: 100vh;
+    gap: 20px;
+}
+
+.Izquierda {
+    order: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    width: 50vw;
+    height: 100vh;
+}
+
+.Abajo__Img {
+    height: 100%;
+}
