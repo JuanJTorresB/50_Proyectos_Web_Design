@@ -8,12 +8,12 @@
 }
 
 .Descripcion {
-    position: relative;
-    left: 150px;
+    box-sizing: border-box;
+    display: flex;
     text-align: center;
     white-space: pre-wrap;
     font-family: var(--Title_Font);
-    align-content: center;
+    gap: 2vw;
 }
 
 .Descripcion__Titulo {
@@ -22,7 +22,6 @@
 }
 
 .Descripcion__Descripcion {
-    text-align: left;
     font-weight: 200;
     font-size: 26px;
 }
@@ -36,33 +35,24 @@
     background-color: #252525;
     color: #FFFFFF;
     border: 0px;
+    position: relative;
+    right: 30px;
 }
 
 .Arriba {
     display: flex;
     box-sizing: border-box;
     justify-content: space-around;
+    align-items: center;
     width: 100vw;
+    height: 30vh;
     gap: 20px;
 }
 
 .Abajo {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     box-sizing: border-box;
-    height: 50vh;
+    height: 70vh;
     width: 100vw;
-}
-
-.Galeria--Arriba {
-    margin-top: 2%;
-    position: relative;
-    right: 50px;
-    display: flex;
-    column-gap: 150px;
-}
-.Galeria__Img {
-    width: auto;
-    height: 350px;
-    border-radius: 20px / 15%;
 }
